@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+  </head>
+
+  <body>
+    <h1>Contact Me</h1>
+    <a id="linking" href="index.html">Click me to go back</a><br>
+    <br>
+    <fieldset>
+      <legend>Your Information</legend>
+
+      <form action="mailto:parajulishaurav8@gmail.com?subject=user information" enctype="text/plain" method="post">
+        <label for="username">Username: </label>
+        <br>
+        <input type="text" id="username" name="username" placeholder="Add Username">
+        <br>
+        <br>
+        <label for="email">E-mail: </label>
+        <br>
+        <input type="email" id="email" name="email" placeholder="Add Email">
+
+        <p>
+        <h3>Select your gender</h3>
+        <input type="radio" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" value="female">
+        <label for="female">Female</label>
+        </p>
+
+        <p>
+        <h3>Select your Hobbies</h3>
+        <input type="checkbox" name="Hobbies" id="dance" value="dance">
+        <label for="dance">Dance</label>
+        <input type="checkbox" name="Hobbies" id="sing" value="sing">
+        <label for="sing">Sing</label>
+        </p>
+        <p>
+        <h3>Select you country</h3>
+        <label for="country">Choose Country: </label>
+        <select name="country" id="country">
+          <option value="nepal">Nepal</option>
+          <option value="india">India</option>
+          <option value="pakistan">Pakistan</option>
+
+
+        </select>
+        </p>
+        <p>
+        <h3>Select you fav coffee</h3>
+        <label for="coffee">Choose Coffee: </label>
+        <select name="coffee" id="coffee">
+          <optgroup label="Strong coffee">
+            <optiong value="espresso">Espresso</optiong>
+            <option value="mocha">Mocha</option>
+            <option value="dark coffee">Dark Coffee</option>
+          </optgroup>
+          <optgroup label="light coffee">
+            <optiong value="espresso 1 shot">Espresso 1 Shot</optiong>
+            <option value="americano">Americano</option>
+            <option value="latte">Latte</option>
+          </optgroup>
+
+
+
+        </select>
+        <p>
+          <textarea name="" id="" cols="20" rows="20"></textarea>
+
+        </p>
+
+        </p>
+
+
+        <button type="submit">Submit </button>
+        </p>
+
+
+      </form>
+    </fieldset>
+
+
+  </body>
+
+</html>
